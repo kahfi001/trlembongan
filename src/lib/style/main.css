@@ -1,0 +1,84 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  /* font-family: 'Marcellus';
+  src: url('/fonts/Marcellus/Marcellus-Regular.woff2') format('woff2'),
+    url('/fonts/Marcellus/Marcellus-Regular.woff') format('woff');
+  font-display: swap; */
+  font-family: 'Garamond';
+  src: url('/fonts/EB_Garamond/EBGaramond-Regular.woff2') format('woff2'),
+    url('/fonts/EB_Garamond/EBGaramond-Regular.woff') format('woff');
+  font-display: swap;
+}
+
+@font-face {
+  /* font-family: "Manrope";
+  src: url('/fonts/Manrope/Manrope-Regular.woff2') format('woff2'),
+      url('/fonts/Manrope/Manrope-Regular.woff')  format('woff');
+  font-display: swap; */
+  font-family: "Cormorant";
+  src: url('/fonts/Cormorant_Garamond/CormorantGaramond-Regular.woff2') format('woff2'),
+      url('/fonts/Cormorant_Garamond/CormorantGaramond-Regular.woff')  format('woff');
+  font-display: swap;
+}
+
+/* 
+.font-marcel{
+  font-family: "Marcellus", sans-serif;
+}
+  
+.font-manrope{
+  font-family:"Manrope", sans-serif;
+} */
+
+.font-marcel{
+  font-family: "Garamond", sans-serif;
+}
+
+.font-manrope{
+  font-family:"Cormorant", sans-serif;
+}
+
+
+
+#desc ul{
+  list-style: disc;
+  margin-left: 2rem;
+} 
+
+/* Saat input checked, ubah warna background dan teks */
+.drawbox input:checked {
+  background-color: #AF9F8D;
+  color: white;
+  border-radius: 16px;
+}
+.drawbox input:checked::after {
+  color: white;
+}
+
+.drawbox input{
+  background-color: #F6F3EB;
+  padding: 16px 60px;
+  text-align: center;
+  height: max-content;
+  color: #AF9F8D;
+}
+
+.drawbox input::after{
+  color: #AF9F8D;
+}
+
+.myAccommodationSwiper .swiper-pagination-bullet-active{
+  background: #5f564c !important;
+}
+.myAccommodationSwiper .swiper-pagination-bullet{
+  width: 24px;
+  height: 5px;
+  border-radius: 0;
+  background: #ffffffaf;
+  opacity: 100%;
+  border-radius: 8px;
+  margin: 0  2px !important;
+}

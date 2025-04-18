@@ -1,0 +1,50 @@
+{
+	"/": [
+		"src/routes/+page.ts",
+		"src/routes/+page.server.ts"
+	],
+	"/accommodations": [
+		"src/routes/accommodations/+page.ts",
+		"src/routes/accommodations/+page.server.ts"
+	],
+	"/accommodations/[slug]": [
+		"src/routes/accommodations/[slug]/+page.ts",
+		"src/routes/accommodations/[slug]/+page.server.ts"
+	],
+	"/blog": [
+		"src/routes/blog/+page.ts",
+		"src/routes/blog/+page.server.ts"
+	],
+	"/blog/[slug]": [
+		"src/routes/blog/[slug]/+page.ts",
+		"src/routes/blog/[slug]/+page.server.ts"
+	],
+	"/contact-us": [
+		"src/routes/contact-us/+page.ts",
+		"src/routes/contact-us/+page.server.ts"
+	],
+	"/dine": [
+		"src/routes/dine/+page.ts",
+		"src/routes/dine/+page.server.ts"
+	],
+	"/dine/[slug]": [
+		"src/routes/dine/[slug]/+page.ts",
+		"src/routes/dine/[slug]/+page.server.ts"
+	],
+	"/explore": [
+		"src/routes/explore/+page.ts",
+		"src/routes/explore/+page.server.ts"
+	],
+	"/gallery": [
+		"src/routes/gallery/+page.ts",
+		"src/routes/gallery/+page.server.ts"
+	],
+	"/special-offer": [
+		"src/routes/special-offer/+page.ts",
+		"src/routes/special-offer/+page.server.ts"
+	],
+	"/special-offer/[slug]": [
+		"src/routes/special-offer/[slug]/+page.ts",
+		"src/routes/special-offer/[slug]/+page.server.ts"
+	]
+}
